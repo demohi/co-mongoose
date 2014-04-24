@@ -1,7 +1,7 @@
 {
   "name": "co-mongoose",
   "version": "0.0.2",
-  "description": "mongoose for koa. forked from iolo/mongoose-q",
+  "description": "co-mongoose. forked from iolo/mongoose-q",
   "repository": {
     "type": "git",
     "url": "https://github.com/demohi/co-mongoose.git"

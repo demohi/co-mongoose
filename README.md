@@ -1,4 +1,4 @@
-mongoose-q
+co-mongoose  forked from iolo/mongoose-q
 ==========
 
 [kriskowal's Q](http://documentup.com/kriskowal/q/) support for [mongoose](http://mongoosejs.com).
