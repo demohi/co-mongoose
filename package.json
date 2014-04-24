@@ -1,6 +1,6 @@
 {
   "name": "co-mongoose",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "co-mongoose. forked from iolo/mongoose-q",
   "repository": {
     "type": "git",
@@ -9,11 +9,13 @@
   "keywords": [
     "mongoose",
     "co",
-    "co-mongoose"
+    "co-mongoose",
+    "mongoose-q"
   ],
   "author": "mdemo",
   "dependencies": {
-    "q": "~1.0.0"
+    "q": "~1.0.0",
+    "mongoose": "^3.8.8"
   },
   "devDependencies": {
     "nodeunit": "latest",

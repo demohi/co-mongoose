@@ -81,8 +81,8 @@ function qualify(obj, funcNames, funcNameMapper, spread) {
  * @param {boolean} [options.spread=false]
  * @returns {mongoose.Mongoose} the same mongoose instance, for convenince
  */
-function mongooseQ(mongoose, options) {
-  mongoose = mongoose || require('mongoose');
+function mongooseQ(options) {
+  var mongoose =  require('mongoose');
   options = options || {};
   var prefix = options.prefix || '';
   var suffix = options.suffix || 'Q';

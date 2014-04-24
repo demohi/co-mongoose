@@ -11,12 +11,8 @@ usage
 * to apply Q with default suffix 'Q':
 
 ```javascript
-var mongoose = require('mongoose-q')(require('mongoose'));
-// verbose way: mongooseQ is unused
-var mongoose = require('mongoose'),
-    mongooseQ = require('mongoose-q')(mongoose)
 // shortest way: mongoose will be loaded by mongoose-q
-var mongoose = require('mongoose-q')();
+var mongoose = require('co-mongoose')();
 ```
 
 * use Q-applied `model` statics:
