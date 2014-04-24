@@ -12,9 +12,6 @@
     "co-mongoose"
   ],
   "author": "mdemo",
-  "engines": {
-    "node": "~0.10"
-  },
   "dependencies": {
     "q": "~1.0.0"
   },
